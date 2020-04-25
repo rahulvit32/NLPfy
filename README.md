@@ -72,7 +72,7 @@ Will first fetch vectors (each of size 100 elements) for the constituent words i
 To find similarity between sentence vectors are then calculated and stored in a Matrix –
 We will use Cosine Similarity Approach for this and will first create zero matrix of dimensions (n * n) where n is the number of sentence and then will consine similarity function for computation.
 
-![](Images/consine.PNG)
+![](Images/cosine.PNG)
 ### Step-5
 
 * Rank Calculation of those sentence –
