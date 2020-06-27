@@ -1,4 +1,4 @@
-# Text-Summarization
+# NLPfy
 
 Text summarization refers to the technique of shortening long pieces of text. The intention is to create a coherent and fluent summary having only the main points outlined in the document.Applying text summarization reduces reading time, accelerates the process of researching for information, and increases the amount of information that can fit in an area.
 
