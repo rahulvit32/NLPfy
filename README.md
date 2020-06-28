@@ -1,5 +1,30 @@
 # NLPfy
 
+Text Analytics Web Application which preforms various tasks which include - 
+* Sentence Tokenisation
+* Word Tokenisation and Stemming
+* Sentiment Analysis
+* Text Summarizer
+* NER checker (Text + URLs)
+
+### Install the follwing dependencies in a new virtual enviroment to run the application -
+
+* Streamlit -  `pip install streamlit`
+
+* Spacy - `pip install -U spacy`
+
+* NLTK - `conda install -c anaconda nltk`
+
+* Beautiful Soup - `conda install -c anaconda beautifulsoup4`
+
+* GloVe file - https://nlp.stanford.edu/projects/glove/
+
+
+### Run the application by opening the virtual environment terminal with command -  
+
+`streamlit run app.py`
+
+### Text Sumarization -
 Text summarization refers to the technique of shortening long pieces of text. The intention is to create a coherent and fluent summary having only the main points outlined in the document.Applying text summarization reduces reading time, accelerates the process of researching for information, and increases the amount of information that can fit in an area.
 
 There are many reasons and uses for a summary of a larger document -
@@ -106,4 +131,5 @@ Lastly, a certain number of top-ranked statement will form a final summary!!!
 * https://www.researchgate.net/publication/257947528_Text_SummarizationAn_Overview
 
 ### Note
-* I prefer using google colab because of its free computation power, easy sharing and much setup is required.
+* I prefer using google colab because of its free computation power, easy sharing and much setup is required for text summarization.
+* For the web development using streamlit (app.py), use Anaconda Navigator (terminal).
